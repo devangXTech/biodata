@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata - Portfolio Website</title>
+
+  <!-- bootstrap 5 links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- font awesome 6.1.1 version link icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- css responsive link -->
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+  <!-- start header  -->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="index.html" class="navbar-brand logo fas fa-bold">.</a>
+        <button class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse">
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">my intro</a>
+            </li>
+            <li class="nav-item">
+              <a href="service.html" class="nav-link">services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link active" data-bs-toggle="dropdown">pages <i class="fas fa-chevron-down"></i></a>
+              <div class="dropdown-menu">
+                <a href="blog.html" class="dropdown-item">blog posts</a>
+                <a href="timeline.html" class="dropdown-item">timeline</a>
+                <a href="error.html" class="dropdown-item">404 page</a>
+                <a href="landing-page.html" class="dropdown-item active">landing page</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+          </ul>
+          <div class="d-flex search-box me-lg-5 me-0">
+            <input type="text" placeholder="enter keyword...">
+            <input type="submit" value="search">
+          </div>
+        </div>
+        <i class="far fa-sun light-btn ms-lg-5 ms-0"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- end header  -->
+
+  <!-- start scroll top btn -->
+  <button id="scroll-top" class="main-btn">
+    <span class="fas fa-level-up-alt"></span>
+  </button>
+  <!-- end scroll top btn -->
+ <!-- start color container  -->
+  <div class="color-container">
+    <button id="setting-btn">
+      <span class="fas fa-gear"></span>
+    </button>
+    <div class="colors d-flex flex-wrap">
+      <div class="color-btn" data-color="#f54748" style="--color:#f54748;"></div>
+      <div class="color-btn" data-color="#eb6b40" style="--color:#eb6b40;"></div>
+      <div class="color-btn" data-color="#e60000" style="--color:#e60000;"></div>
+      <div class="color-btn" data-color="#2EA3F2" style="--color:#2EA3F2;"></div>
+      <div class="color-btn" data-color="#00CCCC" style="--color:#00CCCC;"></div>
+      <div class="color-btn" data-color="#00e64d" style="--color:#00e64d;"></div>
+      <div class="color-btn" data-color="#e6e600" style="--color:#e6e600;"></div>
+      <div class="color-btn" data-color="#FFAA1D" style="--color:#FFAA1D;"></div>
+      <div class="color-btn" data-color="#8a00e6" style="--color:#8a00e6;"></div>
+      <div class="color-btn" data-color="#fa25ee" style="--color:#fa25ee;"></div>
+    </div>
+  </div>
+  <!-- end color container  -->
+
+
+  <!-- start home  -->
+  <section class="home padding d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-10 col-12">
+          <div class="content text-md-start text-center">
+            <span>hi, i'm mary ateer</span>
+            <h1 class="typing-text">developer</h1>
+            <p class="para">I love to work in UI/UX designing. I always try my best to make good UI with the best UX.</p>
+            <a href="about.html" class="main-btn">hire me</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="img/icon1.png" alt="icon" class="icon icon-1">
+    <img src="img/icon2.png" alt="icon" class="icon icon-2">
+    <img src="img/icon3.png" alt="icon" class="icon icon-3">
+    <img src="img/icon6.png" alt="icon" class="icon icon-4">
+  </section>
+  <!-- end home  -->
+
+  <!-- start brand  -->
+  <section class="brand padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <img src="img/logo1.png" alt="logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <img src="img/logo2.png" alt="logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <img src="img/logo3.png" alt="logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <img src="img/logo4.png" alt="logo">
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-center">
+          <img src="img/logo5.png" alt="logo">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end brand  -->
+
+  <!-- start service  -->
+  <section class="service padding">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-md-3 col-12">
+          <h1 class="num">22</h1>
+          <p class="para">years of experience</p>
+        </div>
+        <div class="col-md-8 col-12">
+          <h1 class="heading">i'm a designer & developer with a passion for web design</h1>
+          <div class="row mt-5 pt-5">
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="box active">
+                <i class="fas fa-lightbulb icon"></i>
+                <div class="text">
+                  <a href="#">creative design</a>
+                  <br>
+                  <a href="#">explore more <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="box">
+                <i class="fas fa-laptop-code icon"></i>
+                <div class="text">
+                  <a href="#">web design</a>
+                  <br>
+                  <a href="#">explore more <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+              <div class="box">
+                <i class="fas fa-layer-group icon"></i>
+                <div class="text">
+                  <a href="#">brand identity</a>
+                  <br>
+                  <a href="#">explore more <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end service  -->
+
+  <!-- start about  -->
+  <section class="about padding">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <img src="img/about.jpg" alt="about img">
+        </div>
+        <div class="col-lg-8 ps-lg-5 ps-1">
+          <span class="sub-title">my intro</span>
+          <h1 class="heading py-3">about me</h1>
+          <p class="para mt-3">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non quae, fugiat consequatur voluptatem nihil ad. Lorem ipsum dolor sit amet.</p>
+          <div class="personal-details my-4 py-5">
+            <div class="d-flex align-items-center">
+              <h4>name</h4>
+              <span class="para">:</span>
+              <p class="para">mary ateer</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <h4>age</h4>
+              <span class="para ps-4">:</span>
+              <p class="para">26 years</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <h4>from</h4>
+              <span class="para ps-1">:</span>
+              <p class="para">london, UK</p>
+            </div>
+            <div class="d-flex align-items-center">
+              <h4>email</h4>
+              <span class="para">:</span>
+              <p class="para">maryateer@mail.com</p>
+            </div>
+          </div>
+          <a href="#" class="main-btn mt-3">donwload CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about  -->
+
+  <!-- start skills -->
+  <section class="skill padding">
+    <div class="container">
+      <div class="row text-center">
+        <span class="sub-title">my skills</span>
+        <h1 class="heading">my expertise area</h1>
+      </div>
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-6 col-12">
+          <div class="progress-box box-1 my-5">
+            <div class="text">
+              <h4>web design</h4>
+              <h4 class="percent" style="--left: 80%;">80%</h4>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="--left: 80%;"></span>
+              <div class="circle" style="--left: 80%;"></div>
+            </div>
+          </div>
+          <div class="progress-box box-2 my-5">
+            <div class="text">
+              <h4>HTML/CSS</h4>
+              <h4 class="percent" style="--left: 95%;">95%</h4>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="--left: 95%;"></span>
+              <div class="circle" style="--left: 95%;"></div>
+            </div>
+          </div>
+          <div class="progress-box box-3 my-5">
+            <div class="text">
+              <h4>javascript</h4>
+              <h4 class="percent" style="--left: 60%;">60%</h4>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="--left: 60%;"></span>
+              <div class="circle" style="--left: 60%;"></div>
+            </div>
+          </div>
+          <div class="progress-box box-4 my-5">
+            <div class="text">
+              <h4>react js</h4>
+              <h4 class="percent" style="--left: 85%;">85%</h4>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="--left: 85%;"></span>
+              <div class="circle" style="--left: 85%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12 px-lg-5 px-0">
+          <div class="progress-box box-1 my-5">
+            <div class="text">
+              <h4>angular js</h4>
+              <h4 class="percent" style="--left: 80%;">80%</h4>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="--left: 80%;"></span>
+              <div class="circle" style="--left: 80%;"></div>
+            </div>
+          </div>
+          <div class="progress-box box-2 my-5">
+            <div class="text">
+              <h4>bootstrap</h4>
+              <h4 class="percent" style="--left: 95%;">95%</h4>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="--left: 95%;"></span>
+              <div class="circle" style="--left: 95%;"></div>
+            </div>
+          </div>
+          <div class="progress-box box-3 my-5">
+            <div class="text">
+              <h4>graphic design</h4>
+              <h4 class="percent" style="--left: 60%;">60%</h4>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="--left: 60%;"></span>
+              <div class="circle" style="--left: 60%;"></div>
+            </div>
+          </div>
+          <div class="progress-box box-4 my-5">
+            <div class="text">
+              <h4>UI/UX design</h4>
+              <h4 class="percent" style="--left: 85%;">85%</h4>
+            </div>
+            <div class="progress-bar">
+              <span class="progress" style="--left: 85%;"></span>
+              <div class="circle" style="--left: 85%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- end skills -->
+
+  <!-- start project  -->
+  <section class="project padding">
+    <div class="container">
+      <div class="row text-center">
+        <span class="sub-title">portfolio</span>
+        <h1 class="heading">some of my most recent project</h1>
+      </div>
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="img-box">
+            <img src="img/g1.jpg" alt="project img">
+            <div class="overlay">
+              <h4>project 1</h4>
+              <p class="para">Quisque ut lectus, eros et, sed commodo risus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="img-box">
+            <img src="img/g2.jpg" alt="project img">
+            <div class="overlay">
+              <h4>project 2</h4>
+              <p class="para">Quisque ut lectus, eros et, sed commodo risus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="img-box">
+            <img src="img/g3.jpg" alt="project img">
+            <div class="overlay">
+              <h4>project 3</h4>
+              <p class="para">Quisque ut lectus, eros et, sed commodo risus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="img-box">
+            <img src="img/g4.jpg" alt="project img">
+            <div class="overlay">
+              <h4>project 4</h4>
+              <p class="para">Quisque ut lectus, eros et, sed commodo risus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="img-box">
+            <img src="img/g5.jpg" alt="project img">
+            <div class="overlay">
+              <h4>project 5</h4>
+              <p class="para">Quisque ut lectus, eros et, sed commodo risus.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="img-box">
+            <img src="img/g6.jpg" alt="project img">
+            <div class="overlay">
+              <h4>project 6</h4>
+              <p class="para">Quisque ut lectus, eros et, sed commodo risus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="img-container padding">
+          <div class="box">
+            <div class="img-box-2">
+              <img src="img/g1.jpg" alt="project img">
+              <button class="fas fa-chevron-left" id="prev-btn"></button>
+              <button class="fas fa-chevron-right" id="next-btn"></button>
+            </div>
+            <div class="description">
+              <div class="d-flex justify-content-between align-items-center mt-5">
+                <span>project 1</span>
+                <button class="fas fa-times" id="close-btn"></button>
+              </div>
+              <span class="img-number">image 1 of 6</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end project  -->
+
+  <!-- start service-2  -->
+  <section class="service-2 padding">
+    <div class="container">
+      <div class="row text-center">
+        <span class="sub-title">what i do?</span>
+        <h1 class="heading">how i can help your next project</h1>
+      </div>
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">web design <br> and development</a>
+            <div class="icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">mobile app <br> development</a>
+            <div class="icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">android app <br> development</a>
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">php web <br> development</a>
+            <div class="icon">
+              <i class="fab fa-php"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">IOS app <br> development</a>
+            <div class="icon">
+              <i class="fas fa-apple"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">jQuery & java <br> programming</a>
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">block chain <br> development</a>
+            <div class="icon">
+              <i class="fas fa-link"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">.net program <br> development</a>
+            <div class="icon">
+              <i class="fas fa-code-branch"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end service-2  -->
+
+  <!-- start testimonial  -->
+  <section class="testimonial padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+          <div class="carousel slide" data-bs-ride="carousel" id="testimonial-carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row align-items-center">
+                  <div class="col-lg-6 col-12">
+                    <blockquote>
+                      <i class="fas fa-quote-left"></i>
+                      <p class="para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    </blockquote>
+                    <div class="details mt-5">
+                      <h4 class="name">phillip hunt</h4>
+                      <p class="para">subtitle goes here</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <img src="img/t1.jpg" alt="client img">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                  <div class="col-lg-6 col-12">
+                    <blockquote>
+                      <i class="fas fa-quote-left"></i>
+                      <p class="para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    </blockquote>
+                    <div class="details mt-5">
+                      <h4 class="name">sara grant</h4>
+                      <p class="para">subtitle goes here</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <img src="img/t2.jpg" alt="client img">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                  <div class="col-lg-6 col-12">
+                    <blockquote>
+                      <i class="fas fa-quote-left"></i>
+                      <p class="para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    </blockquote>
+                    <div class="details mt-5">
+                      <h4 class="name">luke jacobs</h4>
+                      <p class="para">subtitle goes here</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <img src="img/t3.jpg" alt="client img">
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row align-items-center">
+                  <div class="col-lg-6 col-12">
+                    <blockquote>
+                      <i class="fas fa-quote-left"></i>
+                      <p class="para">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                    </blockquote>
+                    <div class="details mt-5">
+                      <h4 class="name">claire olson</h4>
+                      <p class="para">subtitle goes here</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <img src="img/t4.jpg" alt="client img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="#testimonial-carousel" class="carousel-control-prev" data-bs-slide="prev">
+              <span class="fas fa-chevron-left"></span>
+            </a>
+            <a href="#testimonial-carousel" class="carousel-control-next" data-bs-slide="next">
+              <span class="fas fa-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end testimonial  -->
+
+  <!-- start contact  -->
+  <section class="contact padding">
+    <div class="container">
+      <div class="row text-center">
+        <span class="sub-title">get in touch</span>
+        <h1 class="heading">contact me</h1>
+      </div>
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-6 col-12">
+          <div class="content pe-lg-5 pe-0">
+            <h2 class="heading">contact info</h2>
+            <p class="para my-5">I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
+            <div class="my-details">
+              <ul class="p-0">
+                <li class="para">
+                  <i class="fas fa-map-marker-alt"></i>
+                  10001, 5th Avenue, 12202 street, USA.
+                </li>
+                <li class="para">
+                  <i class="fas fa-phone-alt"></i>
+                  <a href="#">+1(21) 234 4567</a>
+                </li>
+                <li class="para">
+                  <i class="fas fa-envelope-open-text"></i>
+                  <a href="#">example@mail.com</a>
+                </li>
+              </ul>
+            </div>
+            <div class="social-media mt-5">
+              <h3 class="heading">follow me</h3>
+              <div class="icons d-flex mt-5">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-github"></a>
+                <a href="#" class="fab fa-instagram"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="form">
+            <form>
+              <div class="inp-box">
+                <input type="text" placeholder="your name*" class="inp">
+              </div>
+              <div class="inp-box">
+                <input type="email" placeholder="your email*" class="inp">
+              </div>
+              <div class="inp-box">
+                <input type="text" placeholder="subject*" class="inp">
+              </div>
+              <div class="inp-box">
+                <input type="text" placeholder="website URL**" class="inp">
+              </div>
+              <div class="inp-box">
+                <textarea placeholder="type your message here*"></textarea>
+              </div>
+              <div class="inp-box">
+                <input type="submit" value="Send Message" class="main-btn">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3776843.676506548!2d71.31943700000001!3d22.4168315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1652276076677!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end contact  -->
+
+
+  <!-- start footer  -->
+  <footer class="footer padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10 col-12 text-center">
+          <a href="index.html" class="navbar-brand logo fas fa-bold">.</a>
+          <p class="para py-4">Itaque earum rerum hic tenetur asaItaque earum rerum hic tenetur asap iente delectus ac elit in coeiciendis maiores.</p>
+          <div class="social-media">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="credit text-center">
+          <p class="para">© 2022 Biodata. All Rights Reserved | WordPress Theme by <a href="#">W3Layouts.</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer  -->
+
+
+
+
+<!-- jQuery link -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<!-- custom js link -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

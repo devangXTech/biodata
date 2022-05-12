@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata - Portfolio Website</title>
+
+  <!-- bootstrap 5 links -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- font awesome 6.1.1 version link icons link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+  <!-- custom css link -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- css responsive link -->
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+  <!-- start header  -->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="index.html" class="navbar-brand logo fas fa-bold">.</a>
+        <button class="navbar-toggler" data-bs-target="#navbar" data-bs-toggle="collapse">
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">my intro</a>
+            </li>
+            <li class="nav-item">
+              <a href="service.html" class="nav-link active">services</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link" data-bs-toggle="dropdown">pages <i class="fas fa-chevron-down"></i></a>
+              <div class="dropdown-menu">
+                <a href="blog.html" class="dropdown-item">blog posts</a>
+                <a href="timeline.html" class="dropdown-item">timeline</a>
+                <a href="error.html" class="dropdown-item">404 page</a>
+                <a href="landing-page.html" class="dropdown-item">landing page</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">contact</a>
+            </li>
+          </ul>
+          <div class="d-flex search-box me-lg-5 me-0">
+            <input type="text" placeholder="enter keyword...">
+            <input type="submit" value="search">
+          </div>
+        </div>
+        <i class="far fa-sun light-btn ms-lg-5 ms-0"></i>
+      </div>
+    </nav>
+  </header>
+  <!-- end header  -->
+
+  <!-- start scroll top btn -->
+  <button id="scroll-top" class="main-btn">
+    <span class="fas fa-level-up-alt"></span>
+  </button>
+  <!-- end scroll top btn -->
+
+  <!-- start color container  -->
+  <div class="color-container">
+    <button id="setting-btn">
+      <span class="fas fa-gear"></span>
+    </button>
+    <div class="colors d-flex flex-wrap">
+      <div class="color-btn" data-color="#f54748" style="--color:#f54748;"></div>
+      <div class="color-btn" data-color="#eb6b40" style="--color:#eb6b40;"></div>
+      <div class="color-btn" data-color="#e60000" style="--color:#e60000;"></div>
+      <div class="color-btn" data-color="#2EA3F2" style="--color:#2EA3F2;"></div>
+      <div class="color-btn" data-color="#00CCCC" style="--color:#00CCCC;"></div>
+      <div class="color-btn" data-color="#00e64d" style="--color:#00e64d;"></div>
+      <div class="color-btn" data-color="#e6e600" style="--color:#e6e600;"></div>
+      <div class="color-btn" data-color="#FFAA1D" style="--color:#FFAA1D;"></div>
+      <div class="color-btn" data-color="#8a00e6" style="--color:#8a00e6;"></div>
+      <div class="color-btn" data-color="#fa25ee" style="--color:#fa25ee;"></div>
+    </div>
+  </div>
+  <!-- end color container  -->
+
+  <!-- start breadcrumb  -->
+  <section class="breadcrumb d-flex justify-content-center align-items-center padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="heading">services</h1>
+          <p class="para  d-flex align-items-center"><a href="index.html">home</a> <span>»</span> services page</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end breadcrumb  -->
+
+  <!-- start service  -->
+  <section class="service padding">
+    <div class="container">
+      <div class="row text-center">
+        <span class="sub-title">SPECIALIZED IN</span>
+        <h1 class="heading">what i offer</h1>
+      </div>
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="box active">
+            <i class="fas fa-lightbulb icon"></i>
+            <div class="text">
+              <a href="#">creative design</a>
+              <br>
+              <a href="#">explore more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="box">
+            <i class="fas fa-laptop-code icon"></i>
+            <div class="text">
+              <a href="#">web design</a>
+              <br>
+              <a href="#">explore more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="box">
+            <i class="fas fa-layer-group icon"></i>
+            <div class="text">
+              <a href="#">brand identity</a>
+              <br>
+              <a href="#">explore more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="box">
+            <i class="fas fa-chart-pie icon"></i>
+            <div class="text">
+              <a href="#">graphic design</a>
+              <br>
+              <a href="#">explore more <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end service  -->
+
+
+  <!-- start service-2  -->
+  <section class="service-2 padding">
+    <div class="container">
+      <div class="row text-center">
+        <span class="sub-title">what i do?</span>
+        <h1 class="heading">how i can help your next project</h1>
+      </div>
+      <div class="row mt-5 pt-5">
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">web design <br> and development</a>
+            <div class="icon">
+              <i class="fas fa-laptop"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">mobile app <br> development</a>
+            <div class="icon">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">android app <br> development</a>
+            <div class="icon">
+              <i class="fab fa-android"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">php web <br> development</a>
+            <div class="icon">
+              <i class="fab fa-php"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">IOS app <br> development</a>
+            <div class="icon">
+              <i class="fas fa-apple"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">jQuery & java <br> programming</a>
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">block chain <br> development</a>
+            <div class="icon">
+              <i class="fas fa-link"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+          <div class="box">
+            <a href="#">.net program <br> development</a>
+            <div class="icon">
+              <i class="fas fa-code-branch"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end service-2  -->
+
+  <!-- start pricing  -->
+  <section class="pricing padding">
+    <div class="container">
+      <div class="row text-center">
+        <span class="sub-title">get started</span>
+        <h1 class="heading">the best pricing plan</h1>
+      </div>
+      <div class="row pt-5 pt-5">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="price-box">
+            <div class="price-box-header text-center">
+              <h5>basic plan</h5>
+              <h1 class="heading text-uppercase">free</h1>
+            </div>
+            <div class="price-box-details">
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i>
+                  ui design
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  web development
+                </li>
+                <li class="grayscale">
+                  <i class="fas fa-check"></i>
+                  logo design
+                </li>
+                <li class="grayscale">
+                  <i class="fas fa-check"></i>
+                  SEO optimization
+                </li>
+                <li class="grayscale">
+                  <i class="fas fa-check"></i>
+                  wordpress integration
+                </li>
+              </ul>
+            </div>
+            <div class="price-box-footer text-center">
+              <a href="#" class="main-btn">order now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="price-box active">
+            <div class="price-box-header text-center">
+              <h5>pro plan</h5>
+              <h1 class="heading text-uppercase"><sup>$</sup> 59</h1>
+            </div>
+            <div class="recommended">recommended</div>
+            <div class="price-box-details">
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i>
+                  ui design
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  web development
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  logo design
+                </li>
+                <li class="grayscale">
+                  <i class="fas fa-check"></i>
+                  SEO optimization
+                </li>
+                <li class="grayscale">
+                  <i class="fas fa-check"></i>
+                  wordpress integration
+                </li>
+              </ul>
+            </div>
+            <div class="price-box-footer text-center">
+              <a href="#" class="main-btn">order now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="price-box">
+            <div class="price-box-header text-center">
+              <h5>premium plan</h5>
+              <h1 class="heading text-uppercase"><sup>$</sup> 99</h1>
+            </div>
+            <div class="price-box-details">
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i>
+                  ui design
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  web development
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  logo design
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  SEO optimization
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  wordpress integration
+                </li>
+              </ul>
+            </div>
+            <div class="price-box-footer text-center">
+              <a href="#" class="main-btn">order now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end pricing  -->
+
+
+  <!-- start footer  -->
+  <footer class="footer padding">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10 col-12 text-center">
+          <a href="index.html" class="navbar-brand logo fas fa-bold">.</a>
+          <p class="para py-4">Itaque earum rerum hic tenetur asaItaque earum rerum hic tenetur asap iente delectus ac elit in coeiciendis maiores.</p>
+          <div class="social-media">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+            <a href="#" class="fab fa-instagram"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="credit text-center">
+          <p class="para">© 2022 Biodata. All Rights Reserved | WordPress Theme by <a href="#">W3Layouts.</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer  -->
+
+
+
+
+<!-- jQuery link -->
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+<!-- custom js link -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
